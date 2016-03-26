@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+        <RelativeLayout
+            android:id="@+id/layout_main_relativeLayout_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/main_of_navigation_bg" >
+
+            <TextView
+                android:id="@+id/layout_main_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="大学生理财助手"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        
+        
+         <Button
+            android:id="@+id/layout_main_bn_account"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/layout_main_relativeLayout_top_bar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/feed_iko_moneyn" />      
+        
+        <Button
+            android:id="@+id/layout_main_bn_tongjii"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/layout_main_relativeLayout_top_bar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/layout_main_bn_account"
+            android:background="@drawable/ccr_deduct_wn" />
+
+        <Button
+            android:id="@+id/layout_main_bn_stock"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/layout_main_relativeLayout_top_bar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/layout_main_bn_tongjii"
+            android:background="@drawable/tongbu" />
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <Button
+            android:id="@+id/layout_main_bn_calculator"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/layout_main_bn_account"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/feed_iko_schooln" />
+        <Button
+            android:id="@+id/layout_main_bn_notepad"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/layout_main_bn_tongjii"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/layout_main_bn_calculator"
+            android:background="@drawable/feed_iko_overviewn" />
+
+        <Button
+            android:id="@+id/layout_main_bn_settings"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/layout_main_bn_stock"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/layout_main_bn_notepad"
+            android:background="@drawable/ccr_deduct_welcn" />
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <Button
+            android:id="@+id/layout_main_bn_law"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/layout_main_bn_calculator"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/overview_graf_otaznikn" />
+        
+        
+         <Button
+            android:id="@+id/layout_main_bn_job"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/layout_main_bn_notepad"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/layout_main_bn_law"
+            android:background="@drawable/ccr_deduct_welcome_icon1n" />
+
+        <Button
+            android:id="@+id/layout_main_bn_konwledges"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/layout_main_bn_calculator"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/layout_main_bn_job"
+            android:background="@drawable/passcode_ikonan" />
+        
+        
+        
+        
+        
+        
+        
+
+        
+       
+
+
+
+</RelativeLayout>

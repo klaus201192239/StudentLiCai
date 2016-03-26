@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_114894"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ydg_top_bg"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="200dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+            android:singleLine="true" >
+        </EditText>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/myselectora"
+            android:text="添加"
+            android:textColor="@color/white" >
+        </Button>
+    </LinearLayout>
+    
+    
+     <RelativeLayout
+        android:id="@+id/layout_accounts_relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/yh_main_of_navigation_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="账户设置"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/zhangfanhui"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back_button_selector" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/ListView01"
+            android:layout_width="fill_parent"
+            android:layout_height="380dip"
+            android:layout_marginTop="50dip"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+    </LinearLayout>
+
+</FrameLayout>

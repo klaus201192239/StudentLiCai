@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bn.financial_assistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icocic"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <activity
+            android:name="com.bn.firstviewpage.WelcomePageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bn.financial_assistant.MainActivity" >
+        </activity>
+        <activity android:name="com.bn.stock.StockMainActivity" >
+        </activity>
+        <activity android:name="com.bn.stock.StockSearchActivity" >
+        </activity>
+        <activity android:name="com.bn.stock.StockDetailActivity" >
+        </activity>
+        <activity android:name="com.bn.calculator.CalculatorActivity" >
+        </activity>
+        <activity android:name="com.bn.firstviewpage.GuideActivity" >
+        </activity>
+        <activity android:name="com.bn.financial_assistant.KnowledgeActivity" >
+        </activity>
+        <activity android:name="com.bn.financial_assistant.ParitiesActivity" >
+        </activity>
+        <activity android:name="com.bn.financial_assistant.AccountActivity" >
+        </activity>
+        <activity android:name="com.bn.financial_assistant.LawActivity" >
+        </activity>
+        <activity android:name="com.bn.specification.SprcificationActivity" >
+        </activity>
+        <activity android:name="com.bn.account.AccountActivity" >
+        </activity>
+        <activity android:name="com.bn.account.IncomeListActivity" >
+        </activity>
+        <activity android:name="com.bn.account.PayListActivity" >
+        </activity>
+        <activity android:name="com.bn.notepad.NotepadActivity" >
+        </activity>
+        <activity android:name="com.bn.notepad.NotepadEditActivity" >
+        </activity>
+        <activity android:name="com.bn.knowledge.KnowledgeActivity" >
+        </activity>
+        <activity android:name="com.bn.knowledge.KnowledgeDetailActivity" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.JianYiFeedbackActivity"
+            android:label="@string/title_activity_jian_yi_feedback" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.JobActivity"
+            android:label="@string/title_activity_job" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.AccountItemActivity"
+            android:label="@string/title_activity_account_item" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.SeettsActivity"
+            android:label="@string/title_activity_seetts" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.AccountZhichuActivity"
+            android:label="@string/title_activity_account_zhichu" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.AccountShouruActivity"
+            android:label="@string/title_activity_account_shouru" >
+        </activity>
+        <activity
+            android:name="com.bn.financial_assistant.TongjiActivity"
+            android:label="@string/title_activity_tongji" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

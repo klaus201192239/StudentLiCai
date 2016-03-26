@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_114894"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:id="@+id/layout_accounts_relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/yh_main_of_navigation_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="账户设置"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/settingfanhui"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back_button_selector" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/RelativeLayout04"
+        android:layout_width="260dip"
+        android:layout_height="35dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/ydg_textarea" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ydg_bank_book" >
+        </ImageView>
+
+        <Button
+            android:id="@+id/Button03"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dip"
+            android:background="#00000000"
+            android:text="账户类型"
+            android:textColor="@color/black"
+            android:textSize="22dip">
+        </Button>
+    </LinearLayout>
+    
+    
+
+    <LinearLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="260dip"
+        android:layout_height="35dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/ydg_textarea" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ydg_icon_income" >
+        </ImageView>
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dip"
+            android:background="#00000000"
+            android:text="收入科目"
+            android:textColor="@color/black"
+            android:textSize="22dip" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/RelativeLayout03"
+        android:layout_width="260dip"
+        android:layout_height="35dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/ydg_textarea" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ydg_icon_outlay" >
+        </ImageView>
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dip"
+            android:background="#00000000"
+            android:text="支出科目"
+            android:textColor="@color/black"
+            android:textSize="22dip" >
+        </Button>
+    </LinearLayout>
+
+    
+ 
+
+  
+
+</LinearLayout>
